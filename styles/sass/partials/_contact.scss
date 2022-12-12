@@ -4,84 +4,86 @@ body {
     background-color: $white-shade;
 }
 
-header {
-    display: flex;
-    height: 400px;
-    background-image: url(../assets/contact-image-1.jpg);
-    align-items: flex-end;
-}
+.contact-page {
+    header {
+        display: flex;
+        height: 400px;
+        background-image: url(../assets/contact-image-1.jpg);
+        align-items: flex-end;
+    }
 
-h2 {
-    display: inline-block;
-    align-self: flex-end;
-    text-transform: uppercase;
-    color: white;
-    font-size: 72px;
-    margin: 0 0 0.15em 10%;
-}
+    h2 {
+        display: inline-block;
+        align-self: flex-end;
+        text-transform: uppercase;
+        color: white;
+        font-size: 72px;
+        margin: 0 0 0.15em 10%;
+    }
 
-span {
-    white-space: nowrap;
-    display: block;
-}
+    span {
+        white-space: nowrap;
+        display: block;
+    }
 
-main {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 80%;
-    margin: 2em auto 0 auto;
-}
+    main {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 80%;
+        margin: 2em auto 0 auto;
+    }
 
-.container-email {
-    font-weight: bold;
-}
+    .container-email {
+        font-weight: bold;
+    }
 
-.left-container {
-    background-color: white;
-    padding: 1.5em;
-    height: 75%;
-}
+    .left-container {
+        background-color: white;
+        padding: 1.5em;
+        height: 75%;
+    }
 
-.right-container {
-    width: 70%;
-}
+    .right-container {
+        width: 70%;
+    }
 
-.top-inputs {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
+    .top-inputs {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 
-.contact-form {
-    display: flex;
-    flex-direction: column;
-}
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+    }
 
-input,
-textarea {
-    font-family: $body-font;
-    padding: 1em;
-    margin-bottom: 0.5em;
-}
+    input,
+    textarea {
+        font-family: $body-font;
+        padding: 1em;
+        margin-bottom: 0.5em;
+    }
 
-input,
-textarea,
-button {
-    border: none;
-}
+    input,
+    textarea,
+    button {
+        border: none;
+    }
 
-input {
-    width: 49%;
-}
+    input {
+        width: 49%;
+    }
 
-textarea {
-    resize: none;
-}
+    textarea {
+        resize: none;
+    }
 
-button {
-    font-family: $head-font;
-    background-color: $accent;
-    text-transform: uppercase;
-    padding: 0.5em;
+    button {
+        font-family: $head-font;
+        background-color: $accent;
+        text-transform: uppercase;
+        padding: 0.5em;
+    }
 }

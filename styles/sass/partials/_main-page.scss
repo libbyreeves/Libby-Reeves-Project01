@@ -1,4 +1,5 @@
 @use "variables" as *;
+.main-page {
 .main-header {
     background-color: $pine;
     color: white;
@@ -160,6 +161,7 @@
             }
 
     }
+}
 }
 
 

@@ -4,5 +4,6 @@
 @use "./partials/base-styles";
 @use "./partials/nav";
 @use "./partials/main-page";
+@use './partials/blog-post';
 @use "./partials/contact";
-@use "./partials/blog-post";
+@use "./partials/media-queries";

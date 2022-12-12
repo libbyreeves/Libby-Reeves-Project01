@@ -9,39 +9,41 @@
 </head>
 
 <body>
-    <!--nav starts here-->
-    <nav class="nav-bar">
-        <div class="wrapper">
-            <a href="#" class="home">home</a>
-            <a href="#" class="about">about</a>
-            <a href="#" class="logo">
-                <h1>willow</h1>
-            </a>
-            <a href="#" class="blog">blog</a>
-            <a href="#" class="contact">contact</a>
-        </div>
-    </nav>
-    <!--nav ends here-->
-    <header>
-        <h2>Blog & News</h2>
-    </header>
-    <main>
-        <section class="left-side">
-            <div class="about-willow">
-                <img src="./assets/blog-image-2.jpg" alt="woman with brown hair looking at the camera through green leaves wearing a mustard yellow jacket">
-                <h3>about willow</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo perferendis accusamus nemo rerum asperiores distinctio, quaerat ducimus, assumenda tenetur veniam, soluta maiores <a href="#">voluptate.</a></p>
-            </div>
-            <div class="recent-posts">
-                <h3>recent posts</h3>
+    <section class="blog-post">
+
+        <!--nav starts here-->
+        <nav class="nav-bar">
+            <div class="wrapper">
                 <ul>
-                    <li>Lorem ipsum dolor sit</li>
-                    <li>Lorem ipsum dolor sit</li>
-                    <li>Lorem ipsum dolor sit</li>
-                    <li>Lorem ipsum dolor sit</li>
+                    <li><a href="#" class="home">home</a></li>
+                    <li><a href="#" class="about">about</a></li>
+                    <li><a href="#" class="logo"><h1>willow</h1></a></li>
+                    <li><a href="#" class="blog">blog</a></li>
+                    <li><a href="#" class="contact">contact</a></li>
                 </ul>
             </div>
-        </section>
+        </nav>
+        <!--nav ends here-->
+        <header>
+            <h2>Blog & News</h2>
+        </header>
+        <main>
+            <section class="left-side">
+                <div class="about-willow">
+                    <img src="./assets/blog-image-2.jpg" alt="woman with brown hair looking at the camera through green leaves wearing a mustard yellow jacket">
+                    <h3>about willow</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo perferendis accusamus nemo rerum asperiores distinctio, quaerat ducimus, assumenda tenetur veniam, soluta maiores <a href="#">voluptate.</a></p>
+                </div>
+                <div class="recent-posts">
+                    <h3>recent posts</h3>
+                    <ul>
+                        <li>Lorem ipsum dolor sit</li>
+                        <li>Lorem ipsum dolor sit</li>
+                        <li>Lorem ipsum dolor sit</li>
+                        <li>Lorem ipsum dolor sit</li>
+                    </ul>
+                </div>
+            </section>
         <section class="right-side">
             <div class="blog-post">
                 <h3>my favourite travel destinations</h3>
@@ -49,21 +51,28 @@
             </div>
             <div class="tuesday-post">
                 <img src="./assets/blog-image-3.jpg" alt="person with long brown hair wearing a black hat and mustard yellow shirt looking at the camera">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim ducimus quae veniam eligendi voluptates eaque repellat deserunt quia voluptatibus nam numquam libero facilis odit dolorum exercitationem reiciendis praesentium sed quos molestiae cumque, distinctio pariatur perferendis fugiat fugit. Ab, asperiores rerum?</p>
+                <div class="post-content">
+                    <p>Tuesday October 9th, 2018 by Barb</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim ducimus quae veniam eligendi voluptates eaque repellat deserunt quia voluptatibus nam numquam libero facilis odit dolorum exercitationem reiciendis praesentium sed quos molestiae cumque, distinctio pariatur perferendis fugiat fugit. Ab, asperiores rerum?</p>
+                </div>
             </div>
             <div class="wednesday-post">
                 <img src="./assets/blog-image-4.jpg" alt="person with short black hair smiliing behind green foilage">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia rerum facilis quibusdam quidem sed vel est qui, reiciendis, aut quam iste accusamus! Error exercitationem doloribus laudantium voluptate quos reiciendis quaerat voluptatum iste tenetur perspiciatis. Facere, ducimus. Doloremque quis error necessitatibus dicta, nulla laboriosam dolorum dolore ipsum porro possimus dolor. Quas!</p>
+                <div class="post-content">
+                    <p>Wednesday October 10th, 2018 by Daisy</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia rerum facilis quibusdam quidem sed vel est qui, reiciendis, aut quam iste accusamus! Error exercitationem doloribus laudantium voluptate quos reiciendis quaerat voluptatum iste tenetur perspiciatis. Facere, ducimus. Doloremque quis error necessitatibus dicta, nulla laboriosam dolorum dolore ipsum porro possimus dolor. Quas!</p>
+                </div>
             </div>
-        </section>
-        <div class="right-container">
             <form action="" method="" class="contact-form" name="contact-form">
-                <input type="text" id="name" placeholder="Name">
-                <input type="email" id="email" placeholder="Email address">
+                <div class="top-inputs">
+                    <input type="text" id="name" placeholder="Name">
+                    <input type="email" id="email" placeholder="Email address">
+                </div>
                 <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Message"></textarea>
                 <button>post comment</button>
             </form>
-        </div>
+        </section>
     </main>
+</section>
 </body>
 </html>

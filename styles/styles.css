@@ -260,9 +260,13 @@ nav ul {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 200px 0 200px;
 }
 nav li {
   list-style-type: none;
@@ -274,4 +278,17 @@ nav a {
   text-decoration: none;
   text-transform: uppercase;
   color: white;
+}
+nav a:hover {
+  color: #e4a436;
+}
+
+.main-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }

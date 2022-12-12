@@ -6,7 +6,10 @@ nav {
     ul {
         display: flex;
         flex-direction: row;
-        align-items: flex-end;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 200px 0 200px;
+
     }
     li {
         list-style-type: none;
@@ -17,5 +20,9 @@ nav {
         text-decoration: none;
         text-transform: uppercase;
         color: white;
+        &:hover {
+            color: $accent;
+        }
+        
     }
 }

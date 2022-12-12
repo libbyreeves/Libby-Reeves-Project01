@@ -1,0 +1,21 @@
+@use "variables" as *;
+
+nav {
+    background-color: $pine;
+    
+    ul {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+    }
+    li {
+        list-style-type: none;
+    }
+
+    a {
+        justify-content: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: white;
+    }
+}
